@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOSample.Api", "SSOSample.Api.csproj", "{2BE2DB98-D4EB-48F0-94B0-CF5801E70D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{852EB63E-9452-428E-A3EA-4D1BF86E1BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOSample.Client", "SSOSample.Client\SSOSample.Client.csproj", "{01C06196-4CC5-4A0C-A598-EFCCA4BCA573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE2DB98-D4EB-48F0-94B0-CF5801E70D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE2DB98-D4EB-48F0-94B0-CF5801E70D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE2DB98-D4EB-48F0-94B0-CF5801E70D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE2DB98-D4EB-48F0-94B0-CF5801E70D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852EB63E-9452-428E-A3EA-4D1BF86E1BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852EB63E-9452-428E-A3EA-4D1BF86E1BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852EB63E-9452-428E-A3EA-4D1BF86E1BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852EB63E-9452-428E-A3EA-4D1BF86E1BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C06196-4CC5-4A0C-A598-EFCCA4BCA573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C06196-4CC5-4A0C-A598-EFCCA4BCA573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C06196-4CC5-4A0C-A598-EFCCA4BCA573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C06196-4CC5-4A0C-A598-EFCCA4BCA573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
